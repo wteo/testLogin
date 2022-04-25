@@ -3,7 +3,7 @@ const password = "123456";
 const passwordConfirmation = "123456"
 
 beforeEach(() => {
-    // Add functions here.
+    fillForm(userId, password, passwordConfirmation);
 });
 
 it("UserId Test 1", () => {
